@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B295C84F-812D-4F45-A34F-12312F8AEB47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E4EB2043-4709-4A4B-A566-70A536CE1166}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Endpoints", "Endpoints", "{0668AAD0-ADF5-48C4-AAAB-00E5E308FEC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{49B7A54C-343E-4B53-9B8A-3FD01C542A46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.Application", "Src\Core\Titec.Core.Identity.Application\Titec.Core.Identity.Application.csproj", "{67AFBE8D-796D-4D03-A535-626EF60DCC90}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.Domain", "Src\Core\Titec.Core.Identity.Domain\Titec.Core.Identity.Domain.csproj", "{4DE60FBF-B549-43E4-8134-45C7E0FC36B8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.WebApi", "Src\Endpoints\Titec.Core.Identity.WebApi\Titec.Core.Identity.WebApi.csproj", "{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.EF", "Src\Infrastructure\Titec.Core.Identity.EF\Titec.Core.Identity.EF.csproj", "{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.Repository", "Src\Infrastructure\Titec.Core.Identity.Repository\Titec.Core.Identity.Repository.csproj", "{285B5720-253D-4A02-814C-4A7FC64C3794}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.Service", "Src\Infrastructure\Titec.Core.Identity.Service\Titec.Core.Identity.Service.csproj", "{B797B766-3287-4E17-A6A4-165440287C07}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Titec.Core.Identity.Common", "Src\Core\Titec.Core.Identity.Common\Titec.Core.Identity.Common.csproj", "{D42375FE-ECCD-4FEE-8887-363A18BB41E2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67AFBE8D-796D-4D03-A535-626EF60DCC90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67AFBE8D-796D-4D03-A535-626EF60DCC90}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67AFBE8D-796D-4D03-A535-626EF60DCC90}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67AFBE8D-796D-4D03-A535-626EF60DCC90}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE60FBF-B549-43E4-8134-45C7E0FC36B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE60FBF-B549-43E4-8134-45C7E0FC36B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE60FBF-B549-43E4-8134-45C7E0FC36B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE60FBF-B549-43E4-8134-45C7E0FC36B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{285B5720-253D-4A02-814C-4A7FC64C3794}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{285B5720-253D-4A02-814C-4A7FC64C3794}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{285B5720-253D-4A02-814C-4A7FC64C3794}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{285B5720-253D-4A02-814C-4A7FC64C3794}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B797B766-3287-4E17-A6A4-165440287C07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B797B766-3287-4E17-A6A4-165440287C07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B797B766-3287-4E17-A6A4-165440287C07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B797B766-3287-4E17-A6A4-165440287C07}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42375FE-ECCD-4FEE-8887-363A18BB41E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42375FE-ECCD-4FEE-8887-363A18BB41E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42375FE-ECCD-4FEE-8887-363A18BB41E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42375FE-ECCD-4FEE-8887-363A18BB41E2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E4EB2043-4709-4A4B-A566-70A536CE1166} = {B295C84F-812D-4F45-A34F-12312F8AEB47}
+		{0668AAD0-ADF5-48C4-AAAB-00E5E308FEC5} = {B295C84F-812D-4F45-A34F-12312F8AEB47}
+		{49B7A54C-343E-4B53-9B8A-3FD01C542A46} = {B295C84F-812D-4F45-A34F-12312F8AEB47}
+		{67AFBE8D-796D-4D03-A535-626EF60DCC90} = {E4EB2043-4709-4A4B-A566-70A536CE1166}
+		{4DE60FBF-B549-43E4-8134-45C7E0FC36B8} = {E4EB2043-4709-4A4B-A566-70A536CE1166}
+		{5D0CB4DF-D44E-4BB4-BB62-2D6CCA611302} = {0668AAD0-ADF5-48C4-AAAB-00E5E308FEC5}
+		{FF416B3F-9F6B-4A55-9FC5-04C7B3580A39} = {49B7A54C-343E-4B53-9B8A-3FD01C542A46}
+		{285B5720-253D-4A02-814C-4A7FC64C3794} = {49B7A54C-343E-4B53-9B8A-3FD01C542A46}
+		{B797B766-3287-4E17-A6A4-165440287C07} = {49B7A54C-343E-4B53-9B8A-3FD01C542A46}
+		{D42375FE-ECCD-4FEE-8887-363A18BB41E2} = {E4EB2043-4709-4A4B-A566-70A536CE1166}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB6CC213-3B13-4634-B1AF-4A914FF9FA48}
+	EndGlobalSection
+EndGlobal

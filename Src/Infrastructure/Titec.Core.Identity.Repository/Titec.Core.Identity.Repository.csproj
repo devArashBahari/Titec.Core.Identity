@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Titec.Core.Identity.Application\Titec.Core.Identity.Application.csproj" />
+    <ProjectReference Include="..\..\Core\Titec.Core.Identity.Common\Titec.Core.Identity.Common.csproj" />
+    <ProjectReference Include="..\Titec.Core.Identity.EF\Titec.Core.Identity.EF.csproj" />
+    <ProjectReference Include="..\Titec.Core.Identity.Service\Titec.Core.Identity.Service.csproj" />
+    <PackageReference Include="Titec.Framework.Repository" Version="1.0.3" />
+  </ItemGroup>
+
+</Project>
